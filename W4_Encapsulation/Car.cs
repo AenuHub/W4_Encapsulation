@@ -16,7 +16,7 @@
             get { return _numberOfDoors; }
             set
             {
-                if (value != 2 && value != 4)
+                if (value != 2 || value != 4)
                 {
                     Console.WriteLine("Invalid number of doors");
                     _numberOfDoors = -1;
